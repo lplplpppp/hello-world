@@ -1,2 +1,10 @@
 # hello-world
-第一次创建的
+#include<stdio.h>
+int main()
+{
+  int a,b;
+  a=3;
+  b=4;
+  return 0;
+  
+}
