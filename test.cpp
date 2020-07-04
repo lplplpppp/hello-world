@@ -1,0 +1,346 @@
+
+
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+
+class a{
+private:
+	char a;
+public :
+	virtual void fun1() = 0;
+	virtual void fun2() = 0;
+	//virtual void fun3() = 0;
+	//virtual void fun4() = 0;
+};
+
+class b:public a{
+	char b;
+};
+
+class c{
+	static int a;
+};
+
+class d{
+	virtual void fun1() = 0;
+};
+class d1:public d{
+	void fun1();
+};
+
+void d1::fun1(){
+	
+};
+
+class e{
+	
+};
+class f{
+	
+};
+int main(){
+	int *p;
+	
+	cout << "sizeof(p)" << sizeof(p) << endl;
+	cout << "sizeof(a)" << sizeof(a) << endl;
+	cout << "sizeof(b)" << sizeof(b) << endl;
+	cout << "sizeof(c)" << sizeof(c) << endl;
+	d1 objD1;
+	d1 objD2;
+	d1 objD3;
+	cout << "sizeof(objD1)" << sizeof(objD1) << endl;
+	
+	printf("%d  %d  %d \n",&objD1,&objD2,&objD3);
+	
+	
+	e objE;
+	cout << "sizeof(objE)" << sizeof(objE) << endl;
+	e objE1;
+	e objE2;
+	
+	printf("%d\n",&objE);
+	printf("%d\n",&objE1);
+	printf("%d\n",&objE2);
+	
+e	   a1;
+e	   a2;
+e	   a3;
+e	   a4;
+e	   a5;
+e	   a6;
+e	   a7;
+e	   a8;
+e	   a9;
+e	   a10;
+e	   a11;
+e	   a12;
+e	   a13;
+e	   a14;
+e	   a15;
+e	   a16;
+e	   a17;
+e	   a18;
+e	   a19;
+e	   a20;
+e	   a21;
+e	   a22;
+e	   a23;
+e	   a24;
+e	   a25;
+e	   a26;
+e	   a27;
+e	   a28;
+e	   a29;
+e	   a30;
+e	   a31;
+e	   a32;
+e	   a33;
+e	   a34;
+e	   a35;
+e	   a36;
+e	   a37;
+e	   a38;
+e	   a39;
+e	   a40;
+e	   a41;
+e	   a42;
+e	   a43;
+e	   a44;
+e	   a45;
+e	   a46;
+e	   a47;
+e	   a48;
+e	   a49;
+e	   a50;
+e	   a51;
+e	   a52;
+e	   a53;
+e	   a54;
+e	   a55;
+e	   a56;
+e	   a57;
+e	   a58;
+e	   a59;
+e	   a60;
+e	   a61;
+e	   a62;
+e	   a63;
+e	   a64;
+e	   a65;
+e	   a66;
+e	   a67;
+e	   a68;
+e	   a69;
+e	   a70;
+e	   a71;
+e	   a72;
+e	   a73;
+e	   a74;
+e	   a75;
+e	   a76;
+e	   a77;
+e	   a78;
+e	   a79;
+e	   a80;
+e	   a81;
+e	   a82;
+e	   a83;
+e	   a84;
+e	   a85;
+e	   a86;
+e	   a87;
+e	   a88;
+e	   a89;
+e	   a90;
+e	   a91;
+e	   a92;
+e	   a93;
+e	   a94;
+e	   a95;
+e	   a96;
+e	   a97;
+e	   a98;
+e	   a99;
+e	   a100;
+e	   a101;
+e	   a102;
+e	   a103;
+e	   a104;
+e	   a105;
+e	   a106;
+e	   a107;
+e	   a108;
+e	   a109;
+e	   a110;
+e	   a111;
+e	   a112;
+e	   a113;
+e	   a114;
+e	   a115;
+e	   a116;
+e	   a117;
+e	   a118;
+e	   a119;
+e	   a120;
+e	   a121;
+e	   a122;
+e	   a123;
+e	   a124;
+e	   a125;
+e	   a126;
+e	   a127;
+e	   a128;
+e	   a129;
+e	   a130;
+e	   a131;
+e	   a132;
+e	   a133;
+e	   a134;
+e	   a135;
+e	   a136;
+e	   a137;
+e	   a138;
+e	   a139;
+e	   a140;
+e	   a141;
+e	   a142;
+e	   a143;
+e	   a144;
+e	   a145;
+e	   a146;
+e	   a147;
+e	   a148;
+e	   a149;
+e	   a150;
+e	   a151;
+e	   a152;
+e	   a153;
+e	   a154;
+e	   a155;
+e	   a156;
+e	   a157;
+e	   a158;
+e	   a159;
+e	   a160;
+e	   a161;
+e	   a162;
+e	   a163;
+e	   a164;
+e	   a165;
+e	   a166;
+e	   a167;
+e	   a168;
+e	   a169;
+e	   a170;
+e	   a171;
+e	   a172;
+e	   a173;
+e	   a174;
+e	   a175;
+e	   a176;
+e	   a177;
+e	   a178;
+e	   a179;
+e	   a180;
+e	   a181;
+e	   a182;
+e	   a183;
+e	   a184;
+e	   a185;
+e	   a186;
+e	   a187;
+e	   a188;
+e	   a189;
+e	   a190;
+e	   a191;
+e	   a192;
+e	   a193;
+e	   a194;
+e	   a195;
+e	   a196;
+e	   a197;
+e	   a198;
+e	   a199;
+e	   a200;
+e	   a201;
+e	   a202;
+e	   a203;
+e	   a204;
+e	   a205;
+e	   a206;
+e	   a207;
+e	   a208;
+e	   a209;
+e	   a210;
+e	   a211;
+e	   a212;
+e	   a213;
+e	   a214;
+e	   a215;
+e	   a216;
+e	   a217;
+e	   a218;
+e	   a219;
+e	   a220;
+e	   a221;
+e	   a222;
+e	   a223;
+e	   a224;
+e	   a225;
+e	   a226;
+e	   a227;
+e	   a228;
+e	   a229;
+e	   a230;
+e	   a231;
+e	   a232;
+e	   a233;
+e	   a234;
+e	   a235;
+e	   a236;
+e	   a237;
+e	   a238;
+e	   a239;
+e	   a240;
+e	   a241;
+e	   a242;
+e	   a243;
+e	   a244;
+e	   a245;
+e	   a246;
+e	   a247;
+e	   a248;
+e	   a249;
+e	   a250;
+e	   a251;
+e	   a252;
+e	   a253;
+e	   a254;
+e	   a255;
+e	   a256;
+e	   a257;
+e	   a258;
+e	   a259;
+e	   a260;
+printf(" \n");
+printf(" \n");
+printf(" \n");
+printf("%d\n",&a1);
+printf("%d\n",&a2);
+printf(" \n");
+printf(" \n");
+printf(" \n");
+f   f1;
+printf("%d\n",&f1);
+printf(" \n");
+printf(" \n");
+printf(" \n");
+
+printf("%d\n",&a259);
+printf("%d\n",&a260);
+printf(" \n");
+printf(" \n");
+printf(" \n");
+
+}
